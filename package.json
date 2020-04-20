@@ -1,0 +1,15 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "build": "parcel build app/index.html",
+    "lint": "eslint src",
+    "start": "parcel app/index.html",
+    "test": "echo \"Warn: no test specified\""
+  },
+  "license": "Apache-2.0",
+  "private": true
+}
